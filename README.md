@@ -29,6 +29,7 @@ This is a Dense model 470M model trained on multilingual dataset with XSA Attent
 # Charts
 ## pre-train (loss, lr, grand norm)
 ![image](charts/training_curves_pretrain.png)
+* train loss and graients are extremely stable due to large batch size 1M and appropriate shuffling. But why loss alsmost did not converge at the end is unknown, maybe I did something wrong :(
 
 ## fine-tune (loss, lr, grand norm)
 ![image](charts/training_curves_finetune-2.png)
