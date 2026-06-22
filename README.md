@@ -19,12 +19,24 @@ This is a Dense model 470M model trained on multilingual dataset with XSA Attent
 |Attention type|XSA|
 |FFN type|SwiGLU gated|
 |Position embs|RoPE|
+|Normalization|RMSNorm|
 
 # Benchmarks
 |Test|Value|
 |----|-----|
 |Hellaswag|50%|
 
+# Charts
+## pre-train (loss, lr, grand norm)
+![image](charts/training_curves_pretrain.png)
+
+## fine-tune (loss, lr, grand norm)
+![image](charts/training_curves_finetune-2.png)
+
+## some statistical charts (activation norm and weight distribution)
+![image](charts/activation_plot_avg-3.png)
+![image](charts/weight_distribution.png)
+* weight distribution is mostly near 1.0 because it took maximum and minimum value, RMSNorm has a value of 1.0 by default and it is not changed a lot duting training so this is just visualization error.
 
 # References
 XSA->https://arxiv.org/pdf/2603.09078
