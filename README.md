@@ -42,3 +42,7 @@ This is a Dense model 470M model trained on multilingual dataset with XSA Attent
 XSA->https://arxiv.org/pdf/2603.09078
 SwiGLU gated->https://medium.com/@saeed.mehrang/swiglu-the-activation-function-powering-modern-llms-70ea5cfdeafe
 RoPE->https://arxiv.org/pdf/2104.09864
+
+# Model weights in Huggingface
+repo name->firdavsus/LLM_D5
+there are pre-train weights in pre_train/ folder and fine-tune weights in fine_tune/ folder
