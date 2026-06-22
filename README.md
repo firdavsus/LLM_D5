@@ -20,6 +20,12 @@ This is a Dense model 470M model trained on multilingual dataset with XSA Attent
 |FFN type|SwiGLU gated|
 |Position embs|RoPE|
 
+# Benchmarks
+|Test|Value|
+|----|-----|
+|Hellaswag|50%|
+
+
 # References
 XSA->https://arxiv.org/pdf/2603.09078
 SwiGLU gated->https://medium.com/@saeed.mehrang/swiglu-the-activation-function-powering-modern-llms-70ea5cfdeafe
