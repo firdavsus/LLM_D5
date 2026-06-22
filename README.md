@@ -32,6 +32,7 @@ This is a Dense model 470M model trained on multilingual dataset with XSA Attent
 
 ## fine-tune (loss, lr, grand norm)
 ![image](charts/training_curves_finetune-2.png)
+* You can clearly see the train loss is dropped like from the stairs in the middle (this is due to 2 epoch start) but it is ok, typical fine tuning is run on 2 epoch. And gradiens going up at the end is common too in WSD scheduler as main learning happend at the end of training in decay phase (you can see it in train gradients too).
 
 ## some statistical charts (activation norm and weight distribution)
 ![image](charts/activation_plot_avg-3.png)
