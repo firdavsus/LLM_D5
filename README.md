@@ -24,7 +24,7 @@ This is a Dense model 470M model trained on multilingual dataset with XSA Attent
 # Benchmarks
 |Test|Value|
 |----|-----|
-|Hellaswag|50%|
+|Hellaswag|40%|
 
 # Charts
 ## pre-train (loss, lr, grand norm)
